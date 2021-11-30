@@ -141,10 +141,9 @@ body {
 /* Marsh Map */
 
 #map {
-	margin:auto;
+	justify-content: center;
     height: 100%;
 	width: 92.5%;
-
 	left: 7.5%;
 }
 
