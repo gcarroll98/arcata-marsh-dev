@@ -65,6 +65,40 @@ var mapDiv;
 var quizDiv;
 var markers = [];
 
+function initMap() {
+	map = new google.maps.Map(document.getElementById('mapDiv'), {
+		zoom: 16,
+		center: {lat: 40.858550, lng: -124.090055 } 
+	});
+	
+	//Question location markers
+	var firstMarker = new google.maps.Marker({ position: testQuestions[0]["position"], map, map, title: "Quiz Question 1"});
+	firstMarker.addListener('click', function() {
+		loadFirstQuestion();
+	});
+	markers.push(firstMarker);	
+	var secondMarker = new google.maps.Marker({ position: testQuestions[1]["position"], map, map, title: "Quiz Question 2"});
+	secondMarker.addListener('click', function() {
+		loadSecondQuestion();
+	});
+	markers.push(secondMarker);
+	var thirdMarker = new google.maps.Marker({ position: testQuestions[2]["position"], map, map, title: "Quiz Question 3"});
+	thirdMarker.addListener('click', function() {
+		loadThirdQuestion();
+	});
+	markers.push(thirdMarker);
+	
+/* 	for(var i=0; i<testQuestions.length; i++) {
+		var marker = new google.maps.Marker({ position: testQuestions[i]["position"], map, map, title: "Quiz Question"});
+		
+		markers.push(marker);
+		marker.addListener('click', function() {
+			loadQuestion(i);
+		});
+	} */
+	
+}
+
 //Called when the window is finished loading
 window.onload = function () {
 	
@@ -193,36 +227,4 @@ function nextQuestion() {
 }
 
 
-function initMap() {
-	map = new google.maps.Map(document.getElementById('mapDiv'), {
-		zoom: 16,
-		center: {lat: 40.858550, lng: -124.090055 } 
-	});
-	
-	//Question location markers
-	var firstMarker = new google.maps.Marker({ position: testQuestions[0]["position"], map, map, title: "Quiz Question 1"});
-	firstMarker.addListener('click', function() {
-		loadFirstQuestion();
-	});
-	markers.push(firstMarker);	
-	var secondMarker = new google.maps.Marker({ position: testQuestions[1]["position"], map, map, title: "Quiz Question 2"});
-	secondMarker.addListener('click', function() {
-		loadSecondQuestion();
-	});
-	markers.push(secondMarker);
-	var thirdMarker = new google.maps.Marker({ position: testQuestions[2]["position"], map, map, title: "Quiz Question 3"});
-	thirdMarker.addListener('click', function() {
-		loadThirdQuestion();
-	});
-	markers.push(thirdMarker);
-	
-/* 	for(var i=0; i<testQuestions.length; i++) {
-		var marker = new google.maps.Marker({ position: testQuestions[i]["position"], map, map, title: "Quiz Question"});
-		
-		markers.push(marker);
-		marker.addListener('click', function() {
-			loadQuestion(i);
-		});
-	} */
-	
-}
+
