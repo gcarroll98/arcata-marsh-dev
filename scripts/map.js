@@ -11,9 +11,15 @@ let map, infoWindow;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 40.856164, lng: -124.095262 },
+    center: { lat: 40.8601049, lng: -124.0941103 },
     zoom: 16,
-  });
+    styles: [{
+      "featureType": "poi.business",
+      "stylers": [{ visibility: "off" }]},
+      {"featureType": "poi.sports_complex",
+      "stylers": [{ visibility: "off" }]
+    }]}
+  );
 
   // The following four lines are how you creat a marker for a point of interest in the map.
   var Janes = { lat: 40.862950, lng: -124.096684 };
@@ -90,3 +96,11 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
   infoWindow.open(map);
 }
 
+const styles = {
+    default: [
+    {
+      featureType: "poi.business",
+      stylers: [{ visibility: "off" }],
+    },
+   ],
+};
