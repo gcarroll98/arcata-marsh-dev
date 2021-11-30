@@ -14,6 +14,13 @@ function initMap() {
     center: { lat: 40.856164, lng: -124.095262 },
     zoom: 16,
   });
+
+  // The following four lines are how you creat a marker for a point of interest in the map.
+  var Janes = { lat: 40.862950, lng: -124.096684 };
+  var marker = new google.maps.Marker({ position: Janes, map, map, title: "Janes Creek Watershed"});
+  var info = new google.maps.InfoWindow({ content: '<p>Janes Creek Watershed <img src="images/JanesCreekWatershed.png" alt="Janes Creek Watershed trail sign"></p>'})
+  marker.addListener('click', function() {info.open(map, marker);});
+   
   infoWindow = new google.maps.InfoWindow();
 
   const locationButton = document.createElement("button");
