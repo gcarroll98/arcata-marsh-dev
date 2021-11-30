@@ -2,6 +2,10 @@
 
 body {
 	background-color: #E8E0C4;
+	/* for floating notice */
+	padding-top: 60px;
+    padding-bottom: 40px;
+	margin: 0;
 }
 
 #header {
@@ -35,11 +39,12 @@ body {
 
 #navbar {
 	background: linear-gradient(#252525, #0a0a0a);
-	float: left;
-	display: block;
-	margin: 0 auto 6px;
+	display: inline-block;
+    vertical-align: middle;
 	width: 100%;
-	height: 5%;
+	height: auto;
+  	justify-content: center;
+  	align-items: center;
 }
 
 #navbar a {
@@ -68,6 +73,28 @@ body {
 	text-align: center;
 	padding-top: 2.5%;
 	padding-bottom: 2.5%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+#notice {
+	width: 100%;
+    position: fixed;
+	padding: 10px 0;
+	top: 0;
+	/* center vertially */
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	background-color: red;
+	color: yellow;
+	border-color: #000000;
+	height: 5%;
+}
+
+#notice a {
+	color: yellow;
 }
 
 /* Report Otters Page */
@@ -141,6 +168,11 @@ body {
 /* Marsh Map */
 
 #map {
+    height: 100%;
+	width: 100%;
+}
+
+#mapDiv {
     height: 100%;
 	width: 100%;
 }
