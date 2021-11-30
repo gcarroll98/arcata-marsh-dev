@@ -147,6 +147,13 @@ body {
 	left: 7.5%;
 }
 
+#mapDiv {
+	justify-content: center;
+    height: 100%;
+	width: 92.5%;
+	left: 7.5%;
+}
+
 .custom-map-control-button {
 	background-color: #fff;
 	border: 0;
