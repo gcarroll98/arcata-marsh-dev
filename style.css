@@ -169,6 +169,11 @@ body {
 	width: 100%;
 }
 
+#mapDiv {
+    height: 100%;
+	width: 100%;
+}
+
 .custom-map-control-button {
 	background-color: #fff;
 	border: 0;
