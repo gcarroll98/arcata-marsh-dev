@@ -22,37 +22,34 @@
 //These should really come from a database or maybe just a file on the server that can be edited, but this will suffice for testing
 var testQuestions = [
 	{
-		"question": "Test Question 1 (4 possible answers)",
+		"question": "Over time, the use of land changes. How was the land around you used before it became the Arcata Marsh & Wildlife Sanctuary?",
 		"answers": [
-			"Test Answer 1",
-			"Test Answer 2",
-			"Test Answer 3",
-			"Test Answer 4"
-		],
-		"correct_answer": 1
-	},
-	{
-		"question": "Test Question 2 (5 possible answers)",
-		"answers": [
-			"Test Answer 1",
-			"Test Answer 2",
-			"Test Answer 3",
-			"Test Answer 4",
-			"Test Answer 5"
+			"Landfill",
+			"Salt Marsh used by the Wiyot people",
+			"California's First Railroad",
+			"All of the Above"
 		],
 		"correct_answer": 3
 	},
 	{
-		"question": "Test Question 3 (6 possible answers)",
+		"question": "Unlike other Herons, when does the Black-crowned night heron come out to search for food?",
 		"answers": [
-			"Test Answer 1",
-			"Test Answer 2",
-			"Test Answer 3",
-			"Test Answer 4",
-			"Test Answer 5",
-			"Test Answer 6"
+			"Early in the Morning",
+			"At Dawn",
+			"At Dusk",
+			"Any time of the day"
 		],
-		"correct_answer": 4
+		"correct_answer": 2
+	},
+	{
+		"question": "For how long can a river otter hold its breath?",
+		"answers": [
+			"Five minutes",
+			"Ten minutes",
+			"One minute",
+			"River otters can breathe underwater"
+		],
+		"correct_answer": 0
 	}
 	
 ]
