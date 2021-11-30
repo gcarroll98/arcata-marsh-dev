@@ -141,6 +141,7 @@ body {
 /* Marsh Map */
 
 #map {
+	padding: 0 0 0 0;
     height: 100%;
 	width: 92.5%;
 	left: 7.5%;
