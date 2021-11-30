@@ -1,0 +1,147 @@
+/* All Pages */
+
+body {
+	background-color: #E8E0C4;
+}
+
+#header {
+	text-align: center;
+	font-family: sans-serif;
+	border-top: 2px solid #BBB;
+	margin: auto;
+	width: 60%;
+	padding: 3.65em 0 0;
+}
+
+#header img {
+	height: auto;
+	display: block;
+	width: 100%;
+	padding-top: 10%;
+}
+
+#title-text {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 36px;
+	text-decoration: none;
+	color: #563727;
+	padding-bottom: 10px;
+}
+
+#title-text:hover {
+	color: #1982D1;
+}
+
+#navbar {
+	background: linear-gradient(#252525, #0a0a0a);
+	float: left;
+	display: block;
+	margin: 0 auto 6px;
+	width: 100%;
+	height: 5%;
+}
+
+#navbar a {
+	line-height: 3.33em;
+	padding: 0 0 0 0;
+	text-decoration: none;
+	margin: 3% 3% 0 0;
+	color: #EEEEEE;
+	padding: 1em 0 1em 0;
+}
+
+#navbar a:hover {
+	background-color: #EEEEEE;
+	color: #BBBBBB;
+}
+
+#navbar a:active {
+	font-weight: bold;
+}
+
+#footer {
+	line-height: 1.625em;
+	background-color: #EEEEEE;
+	width: 100%;
+	height: 5%;
+	text-align: center;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+/* Report Otters Page */
+
+#reportOttersButton {
+	background-color: #32373c;
+	border-radius: 9999px;
+	display: inline-block;
+	font-size: 1.125em;
+	text-align: center;
+	text-decoration: none;
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+	color: #EEEEEE;
+}
+
+/* Scavenger Hunt Page */
+
+#body-div {
+	padding: 10% 0 10% 0;
+}
+
+#map-div {
+	border: solid 1px #000000;
+	width: 100%;
+}
+
+#mainDiv {
+	border: solid 1px #000000;
+	width: 100%;
+}
+
+#quizQuestion {
+	margin: auto;
+	width: 66%;
+}
+
+#quizQuestion h4 {
+	font-family: sans-serif;
+	font-size: 22px;
+}
+
+#extraContent {
+	border: solid 1px #000000;
+	height: 33%;
+}
+
+#answerButtons {
+	border: solid 1px #000000;
+	text-align: center;
+	height: 50%;
+}
+
+.answerButton {
+	margin: 5% 5% 5% 5%;
+	width: 35%;
+	height: 15%;
+	background-color: #0a0066;
+	border: solid 1px #000000;
+	color: #EEEEEE;
+	float: left;
+}
+
+.answerButton h4 {
+}
+
+.answerButton:hover {
+	background-color: #EEEEEE;
+	color: #0a0066;
+}
+
+/* Marsh Map */
+
+#map {
+    height: 100%;
+	width: 92.5%;
+	left: 7.5%;
+}
