@@ -92,14 +92,14 @@ body {
 	display: flex;
   	justify-content: center;
   	align-items: center;
-	background-color: red;
-	color: yellow;
+	background-color: #97676F;
+	color: #E0C2C7;
 	border-color: #000000;
 	height: 5%;
 }
 
 #notice a {
-	color: yellow;
+	color: #E0C2C7;
 }
 
 /* Report Otters Page */

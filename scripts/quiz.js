@@ -4,12 +4,6 @@
 	Jordan Abbott
 	11/5/2021
 	
-	**** POTENTIAL TO DO ITEMS: ****
-	
-		- Animations
-		- Photos
-		- GPS location and map
-
 */
 
 //testQuestions is an array of JSON objects of the following structure:
@@ -87,15 +81,6 @@ function initMap() {
 		loadThirdQuestion();
 	});
 	markers.push(thirdMarker);
-	
-/* 	for(var i=0; i<testQuestions.length; i++) {
-		var marker = new google.maps.Marker({ position: testQuestions[i]["position"], map, map, title: "Quiz Question"});
-		
-		markers.push(marker);
-		marker.addListener('click', function() {
-			loadQuestion(i);
-		});
-	} */
 	
 }
 
