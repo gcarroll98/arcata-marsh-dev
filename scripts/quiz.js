@@ -62,7 +62,13 @@ var markers = [];
 function initMap() {
 	map = new google.maps.Map(document.getElementById('mapDiv'), {
 		zoom: 16,
-		center: {lat: 40.858550, lng: -124.090055 } 
+		center: {lat: 40.8601099, lng: -124.0941103 },
+		styles: [{
+			"featureType": "poi.business",
+			"stylers": [{ visibility: "off" }]},
+			{"featureType": "poi.sports_complex",
+			"stylers": [{ visibility: "off" }]
+		  }] 
 	});
 	
 	//Question location markers
