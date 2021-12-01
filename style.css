@@ -110,6 +110,20 @@ body {
 	color: #EEEEEE;
 }
 
+#otter-warning h4{
+	color: #dd0000; 
+}
+
+#body-div p{
+	font-family: sans-serif;
+	letter-spacing: 0px;
+}
+ #animal img{
+
+	 height: auto;
+	 width: 100%;
+ }
+
 /* Scavenger Hunt Page */
 
 #body-div {
