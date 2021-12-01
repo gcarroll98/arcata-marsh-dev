@@ -1,7 +1,8 @@
 /* All Pages */
 
 body {
-	background-color: #E8E0C4;
+	background-color: #8d9968;
+	/*background-color: #E8E0C4;*/
 	/* for floating notice */
 	padding-top: 60px;
     padding-bottom: 40px;
@@ -29,7 +30,8 @@ body {
 	font-weight: bold;
 	line-height: 36px;
 	text-decoration: none;
-	color: #563727;
+	color: black;
+	/*color: #563727;*/
 	padding-bottom: 10px;
 }
 
@@ -38,7 +40,9 @@ body {
 }
 
 #navbar {
-	background: linear-gradient(#252525, #0a0a0a);
+	/*background: linear-gradient(#252525, #0a0a0a);*/
+	background: linear-gradient(#93C572,#4F7942);
+
 	display: inline-block;
     vertical-align: middle;
 	width: 100%;
@@ -52,7 +56,8 @@ body {
 	padding: 0 0 0 0;
 	text-decoration: none;
 	margin: 3% 3% 0 0;
-	color: #EEEEEE;
+	color: black;
+	/*color: #EEEEEE;*/
 	padding: 1em 0 1em 0;
 }
 
@@ -109,7 +114,14 @@ body {
 	padding: calc(0.667em + 2px) calc(1.333em + 2px);
 	color: #EEEEEE;
 }
-
+#spot
+{
+	text-align: left;
+}
+#zoo
+{
+	text-align: left;
+}
 #otter-warning h4{
 	color: #dd0000; 
 }
