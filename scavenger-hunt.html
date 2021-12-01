@@ -4,9 +4,13 @@
 		<title>Arcata Marsh</title>
 		<link rel="stylesheet" href = "style.css">
 		<script src = "scripts/quiz.js"></script>
+
 	</head>
 	
 	<body>
+		<div id="notice">
+			<h3><a href="marsh-map.html">This is a brand new site!!! More information here.</a></h3>
+		</div>
 		<div id="header">
 			<a id = "title-text" href = "index.html">Arcata Marsh App</a>
 			<br />
@@ -19,6 +23,7 @@
 			
 			<div id ="body-div">
 				<h1>Scavenger Hunt Game</h1>
+				<p>Select a marker for a question.</p>
 					<div id = "mapDiv">
 						
 					</div>
@@ -34,9 +39,13 @@
 			</div>
 			
 			<div id = "footer">
-				<h4>Created by HSU CS458 - Group 4</h4>
+				<h4>Created by HSU CS458 Group 4 Students</h4>
 			</div>
 		</div>
 	</body>
+	
+		<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHt7FuaYvYXZtEub3MMYQv3V0fhv9HiQw&callback=initMap">
+    </script>
 
 </html>
