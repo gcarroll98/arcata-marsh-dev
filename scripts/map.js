@@ -26,17 +26,17 @@ function initMap() {
   var info1 = new google.maps.InfoWindow({ content: '<p>Grassland Grocery <img src="https://github.com/abbottjord94/arcata-marsh-dev/blob/main/images/GrasslandGrocery.jpeg" alt="Grassland Grocery trail sign"></p>'})
   marker1.addListener('click', function() {info1.open(map, marker1);});
 
-  var Otters = { lat: 40.8575105, lng: -124.0900109 };
+  var Otters = { lat: 40.8579984, lng: -124.0944966 };
   var marker2 = new google.maps.Marker({ position: Otters, map, map, title: "Look for Signs of River Otters"});
   var info2 = new google.maps.InfoWindow({ content: '<p>Look for Signs of River Otters<img src="https://github.com/abbottjord94/arcata-marsh-dev/blob/main/images/RiverOtters.jpeg" alt="River Otters trail sign"></p>'})
   marker2.addListener('click', function() {info2.open(map, marker2);});
   
-  var Home = { lat: 40.8569050, lng: -124.0931605 };
+  var Home = { lat: 40.8573072, lng: -124.0939142 };
   var marker3 = new google.maps.Marker({ position: Home, map, map, title: "Where's My Home?"});
   var info3 = new google.maps.InfoWindow({ content: '<p>Where is my Home?<img src="https://github.com/abbottjord94/arcata-marsh-dev/blob/main/images/HomeMarker.jpeg" alt="My home trail sign"></p>'})
   marker3.addListener('click', function() {info3.open(map, marker3);});
 
-  var Herons = { lat: 40.8565535, lng: -124.0941756 };
+  var Herons = { lat: 40.8560547, lng: -124.0930230 };
   var marker4 = new google.maps.Marker({ position: Herons, map, map, title: "Do you see Black-Crowned Night-Herons?"});
   var info4 = new google.maps.InfoWindow({ content: '<p>Black-crowned Night-Herons<img src="https://github.com/abbottjord94/arcata-marsh-dev/blob/main/images/Herons.jpeg" alt="Night-Herons trail sign"></p>'})
   marker4.addListener('click', function() {info4.open(map, marker4);});
